@@ -28,6 +28,6 @@ jobs:
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
          skopeo copy docker://docker.io/kubesphere/pause:3.9 docker://crpi-colml5x7wigtexnt.cn-shenzhen.personal.cr.aliyuncs.com/lengong/pause:3.9
-         
-         
+         skopeo copy docker://docker.io/kubesphere/etcd:3.5.15-0 docker://crpi-colml5x7wigtexnt.cn-shenzhen.personal.cr.aliyuncs.com/lengong/etcd:3.5.15-0
+         skopeo copy docker://docker.io/coredns/coredns:1.11.3 docker://crpi-colml5x7wigtexnt.cn-shenzhen.personal.cr.aliyuncs.com/lengong/coredns:1.11.3
          
