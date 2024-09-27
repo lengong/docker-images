@@ -27,7 +27,7 @@ jobs:
 
     - name: Use Skopeo Tools Sync Image to Docker Hub
       run: |
-         skopeo copy docker://docker.io/kubesphere/kube-controller-manager:v1.30.4 docker://crpi-colml5x7wigtexnt.cn-shenzhen.personal.cr.aliyuncs.com/lengong/kube-controller-manager:v1.30.4
+         skopeo copy docker://docker.io/kubesphere/kube-scheduler:v1.30.4 docker://crpi-colml5x7wigtexnt.cn-shenzhen.personal.cr.aliyuncs.com/lengong/kube-scheduler:v1.30.4
          
          
          
