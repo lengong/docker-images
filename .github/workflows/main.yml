@@ -37,4 +37,4 @@ jobs:
          #skopeo copy docker://docker.io/flannel/flannel-cni-plugin:v1.5.1-flannel2 docker://crpi-colml5x7wigtexnt.cn-shenzhen.personal.cr.aliyuncs.com/lengong/flannel-cni-plugin:v1.5.1-flannel2
          #skopeo copy docker://docker.io/flannel/flannel:v0.25.6 docker://crpi-colml5x7wigtexnt.cn-shenzhen.personal.cr.aliyuncs.com/lengong/flannel:v0.25.6
          #skopeo copy docker://docker.io/library/node:lts docker://crpi-colml5x7wigtexnt.cn-shenzhen.personal.cr.aliyuncs.com/lengong/node:lts
-         skopeo copy docker://docker.io/library/openjdk:17-slim-bullseye docker://crpi-colml5x7wigtexnt.cn-shenzhen.personal.cr.aliyuncs.com/lengong/openjdk:17-slim-bullseye
+         skopeo copy docker://docker.io/cloudflare/cloudflared:latest docker://crpi-colml5x7wigtexnt.cn-shenzhen.personal.cr.aliyuncs.com/lengong/cloudflared:latest
